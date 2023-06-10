@@ -1,26 +1,50 @@
-import React from 'react'
+import React from "react";
+import emailjs from '@emailjs/browser';
+import  { useRef } from 'react';
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_f7dk6jh",
+        "template_2tjaf5k",
+        form.current,
+        "v-75tU8INWAnmDtpl"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("success");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   return (
     <>
-        <section class="contact" id="contact">
-    <div class="heading">
-        <h2 className='contact-title'>Contact Me</h2>
-        <span>Connect With Us</span>
-    </div>
-    <div class="contact-form">
-        <form action="">
-            <input type="text" placeholder="Your Name"/>
-            <input type="email" name="" id="" placeholder="Your Email"/>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
-                                <input type="button" value="Send" class="contact-button"/>
-                                </form>
-                            </div>
-                            </section>
-
-
+      <section className="contact" id="contact">
+        <div className="heading">
+          <h2 className="contact-title">Contact Me</h2>
+        </div>
+        <div className="contact-form">
+          <form ref={form} onSubmit={sendEmail}>
+            <label>Name</label>
+            <input type="text" name="user_name" />
+            <label>Email</label>
+            <input type="email" name="user_email" />
+            <label>Message</label>
+            <textarea name="message" />
+            <input type="submit" value="Send" className="contact-input" />
+          </form>
+        </div>
+      </section>
     </>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

@@ -1,0 +1,75 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .para-container {
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  hr {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .bio {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .home-title {
+    font-size: 32px;
+  }
+  
+  .desc {
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .contact-me {
+    padding: 10px 20px;
+    background-color: #b2ff33;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .contact-me:hover {
+    background-color: #99e600;
+  }
+  
+  .portfolio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle-background {
+    width: 500px;
+    height: 500px;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .circle-background img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  

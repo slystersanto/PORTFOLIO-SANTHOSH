@@ -1,24 +1,26 @@
 import React from 'react'
-import sandy from "../Assests/sandy.jpg"
+import profilepic from './images/dp pic new.jpg'
+
+
 
 const Home = () => {
   return (
     <React.Fragment>
      
 
-     <div class="main">
+     <div className="main">
 
-        <div class="para-container">
+        <div className="para-container">
 
             <hr/>
 
-            <div class="bio">
+            <div className="bio">
 
-                I'm Santhosh, a <br/> <span style={{color:"#b2ff33"}} className='home-title'>web developer</span>
+                I'm Santhosh, a <br/> <span style={{color:"#b2ff33"}} className='home-title'>Full-Stack developer</span>
 
             </div>
 
-            <div class="desc">
+            <div className="desc">
 
             A Full Stack Developer with a passion for building <br/>web applications that are both in  front-end and<br/> back-end technologies, & I pride myself on being <br/>able to take on any challenge that comes my way. 
 
@@ -26,10 +28,10 @@ const Home = () => {
 
             <br/>
 
-            <div class="buttons">
+            <div className="buttons">
 
-                <div class="contact-me">
-                    Download Cv
+                <div className="contact-me">
+                   
                 </div>
 
                 
@@ -37,11 +39,11 @@ const Home = () => {
             </div>
         </div>
 
-        <div class="portfolio-container">
+        <div className="portfolio-container">
 
-            <div class="circle-background">
+            <div className="circle-background">
 
-                <img src={sandy} alt="Portfolio"  style={{width:'500px'}} />
+                <img src={profilepic} alt="Portfolio"  style={{width:'480px'}} />
             
             </div>
         </div>
