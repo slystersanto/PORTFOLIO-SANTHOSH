@@ -37,7 +37,7 @@ const About = () => {
                 </div>
                 <div className="info-box">
                     <i className='bx bxs-navigation'></i>
-                    <a href="https://linkedin.com/in/santhosh-kumar-palani-71760b261 " target='_blank'>Github</a>
+                    <a href="https://github.com/slystersanto " target='_blank'>Github</a>
                 </div>
             </div>
             <a href="https://drive.google.com/file/d/1Yv7CV6BydJoaEdVpUlm-Imm51_SknE1x/view?usp=drive_link" className="btn">Download Cv</a>
