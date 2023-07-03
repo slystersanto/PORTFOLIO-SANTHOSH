@@ -33,14 +33,14 @@ const About = () => {
                 </div>
                 <div className="info-box">
                     <i className='bx bxs-navigation'></i>
-                    <a href="https://linkedin.com/in/santhosh-kumar-palani-71760b261 " target='_blank'>LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/santh08 " target='_blank'>LinkedIn</a>
                 </div>
                 <div className="info-box">
                     <i className='bx bxs-navigation'></i>
                     <a href="https://github.com/slystersanto " target='_blank'>Github</a>
                 </div>
             </div>
-            <a href="https://drive.google.com/file/d/1Yv7CV6BydJoaEdVpUlm-Imm51_SknE1x/view?usp=drive_link" className="btn">Download Cv</a>
+            <a href="https://docs.google.com/document/d/1LQaw24FJJi1uVJlD9RSte5xOgZ8vcjgG/edit?usp=drive_link&ouid=113392439077615662157&rtpof=true&sd=true" target='_blank' className="btn">Download Cv</a>
         </div>
     </div>
 </section>
