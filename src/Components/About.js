@@ -40,7 +40,7 @@ const About = () => {
                     <a href="https://github.com/slystersanto " target='_blank'>Github</a>
                 </div>
             </div>
-            <a href="https://docs.google.com/document/d/1LQaw24FJJi1uVJlD9RSte5xOgZ8vcjgG/edit?usp=drive_link&ouid=113392439077615662157&rtpof=true&sd=true" target='_blank' className="btn">Download Cv</a>
+            <a href="https://docs.google.com/document/d/1LQaw24FJJi1uVJlD9RSte5xOgZ8vcjgG/edit?usp=sharing&ouid=113392439077615662157&rtpof=true&sd=true" target='_blank' className="btn">Download Cv</a>
         </div>
     </div>
 </section>
