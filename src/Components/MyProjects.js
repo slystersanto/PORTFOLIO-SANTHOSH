@@ -7,10 +7,42 @@ import project3image from '../Components/images/project3.png';
 import project4image from '../Components/images/project4.png';
 import project5image from '../Components/images/project5.png';
 import project6image from '../Components/images/project6.png';
+import project7 from "../Components/images/project7.png";
+import project8 from "../Components/images/project8.png";
+import project9 from "../Components/images/project9.png";
 
 const MyProjects = () => {
   const projects = [
   
+    {
+      title: 'Sell N Buy',
+      description: 'An app that provides buyer&seller to get product faster.',
+      image: project7,
+      technologies: ['MERN-Stack'],
+      liveLink: 'https://sellnbuy-backend.onrender.com',
+      frontendCodeLink: 'https://github.com/slystersanto/MERN-E-Commerce',
+      backendCodeLink: 'https://github.com/slystersanto/MERN-E-Commerce',
+    },
+    {
+      title: 'Multi Vendor E-Commerce',
+      description: 'Complete E-commerce app with real time entity.',
+      image: project8,
+      technologies: ['MERN-Stack'],
+      liveLink: 'https://effervescent-tulumba-cfa789.netlify.app',
+      frontendCodeLink: 'https://github.com/slystersanto/MERN-Multi-vendor',
+      backendCodeLink: 'https://github.com/slystersanto/MERN-Multi-vendor',
+    },
+   
+    
+    {
+      title: 'Food Cart',
+      description: 'Food deliver app that makes more fun and secured payments',
+      image:project9,
+      technologies: ['MERN-Stack'],
+      liveLink: 'https://animated-mandazi-3a1de5.netlify.app',
+      frontendCodeLink: 'https://github.com/slystersanto/Food-Kart-FrontEnd',
+      backendCodeLink: 'https://github.com/slystersanto/Food-Kart-BackEnd',
+    },
     {
       title: 'Money Minder',
       description: 'Money Minder makes easy to handle income and expenses with history.',
@@ -22,8 +54,8 @@ const MyProjects = () => {
     },
     {
       title: 'Contact Manager',
-      description: 'Another project with CRUD Operations with search functionalities.',
-      image: project2image,
+      description: 'App that contains to store all the user data including photos.',
+      image:project2image,
       technologies: ['MERN-Stack'],
       liveLink: 'https://manger.netlify.app',
       frontendCodeLink: 'https://github.com/slystersanto/CONTACT-MANAGER-FRONTEND',
@@ -38,33 +70,7 @@ const MyProjects = () => {
       frontendCodeLink: 'https://github.com/slystersanto/MERN-MOVIE-APP-FRONTEND',
       backendCodeLink: 'https://github.com/slystersanto/MERN-MOVIE-APP-BACKEND',
     },
-    {
-      title: 'Dress suggestions for Women',
-      description: 'A Daily Based Dress suggestions for women in all seasons.',
-      image:project1image,
-      technologies: ['MERN-Stack'],
-      liveLink: 'https://dressss.netlify.app',
-      frontendCodeLink: 'https://github.com/slystersanto/CAPSTONE-FRONTEND',
-      backendCodeLink: 'https://github.com/slystersanto/CAPSTONE-BACKEND',
-    },
-    {
-      title: 'Teacher & Student Portal with API',
-      description: 'It is a app which is having the details of every student with access to their mentors.',
-      image: project5image,
-      technologies: ['Front-End React'],
-      liveLink: 'https://euphonious-valkyrie-bfb149.netlify.app',
-      frontendCodeLink: 'https://github.com/slystersanto/STUDENT-TEACHER-CRUD-API',
-      backendCodeLink: 'https://github.com/slystersanto/STUDENT-TEACHER-CRUD-API',
-    },
-    {
-      title: 'Library Management',
-      description: 'Yet another project for library management for a reader and a librarian',
-      image: project6image,
-      technologies: ['Front-End React'],
-      liveLink: 'https://librman.netlify.app/',
-      frontendCodeLink: 'https://github.com/slystersanto/React-Library-Management',
-      backendCodeLink: 'https://github.com/slystersanto/React-Library-Management',
-    },
+    
     // Add more projects as needed
   ];
 
